@@ -5,8 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-/* ºÚµ•√‹¬Î*/
-public class Problem021 {
+class Problem021 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         while (sc.hasNext()) {
@@ -15,11 +14,9 @@ public class Problem021 {
             for (char ch : chars) {
                 if (ch <= 'Z' && ch >= 'A') {
                     sb.append(convertUpper(ch));
-                }
-                else if (ch <= 'z' && ch >= 'a') {
+                } else if (ch <= 'z' && ch >= 'a') {
                     sb.append(convertLower(ch));
-                }
-                else {
+                } else {
                     sb.append(ch);
                 }
             }
@@ -30,7 +27,7 @@ public class Problem021 {
     private static char convertUpper(char ch) {
         if (ch == 'Z') return 'a';
         else {
-            return (char)(ch + 33);
+            return (char) (ch + 33);
         }
     }
 

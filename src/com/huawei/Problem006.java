@@ -3,13 +3,12 @@ package com.huawei;
 
 import java.util.Scanner;
 
-/* ÖÊÊıÒò×Ó */
 public class Problem006 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         while (sc.hasNextInt()) {
             int num = sc.nextInt();
-            while (num != 1) { // Ñ­»·ÖÕÖ¹
+            while (num != 1) { // Ñ­ï¿½ï¿½ï¿½ï¿½Ö¹
                 for (int i = 2; i <= num ; i++) {
                     if (num % i == 0) {
                         num /= i;

@@ -2,7 +2,7 @@ package com.huawei;
 
 import java.util.*;
 
-/* 合并表记录*/
+
 public class Problem008 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

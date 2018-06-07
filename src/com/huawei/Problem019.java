@@ -5,9 +5,6 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-/* 简单错误记录
-* 题意： 输出最后统计的8个记录
-* */
 public class Problem019 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

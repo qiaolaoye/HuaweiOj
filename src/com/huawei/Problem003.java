@@ -2,7 +2,6 @@ package com.huawei;
 
 import java.util.*;
 
-/* 明明的随机数 */
 public class Problem003 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

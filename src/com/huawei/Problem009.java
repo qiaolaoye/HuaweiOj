@@ -3,7 +3,6 @@ package com.huawei;
 
 import java.util.Scanner;
 
-/* 提取不重复的整数*/
 public class Problem009 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

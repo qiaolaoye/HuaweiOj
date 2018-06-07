@@ -2,7 +2,6 @@ package com.huawei;
 
 import java.util.Scanner;
 
-/* 求int型正整数在内存中存储时1的个数*/
 public class Problem015 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

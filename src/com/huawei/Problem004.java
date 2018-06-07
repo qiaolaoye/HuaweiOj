@@ -2,7 +2,6 @@ package com.huawei;
 
 import java.util.Scanner;
 
-/* ×Ö·û´®·Ö¸î*/
 public class Problem004 {
     private static String[] zeros = new String[] {"", "0", "00", "000", "0000", "00000", "000000", "0000000"};
 

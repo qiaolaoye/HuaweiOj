@@ -2,7 +2,6 @@ package com.huawei;
 
 import java.util.Scanner;
 
-/* Êý×Öµßµ¹*/
 public class Problem011 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

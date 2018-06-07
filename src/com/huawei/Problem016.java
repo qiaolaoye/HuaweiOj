@@ -2,7 +2,6 @@ package com.huawei;
 
 import java.util.Scanner;
 
-/* ¹ºÎïµ¥*/
 public class Problem016 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -21,13 +20,13 @@ public class Problem016 {
             int[][] dp = new int[num + 1][maxPriceLimited + 1];
             for (int i = 1; i <= num ; i++) {
                 for (int j = price[i]; j <= maxPriceLimited; j++) {
-                    // Èç¹ûÊÇ¸½¼þ
+                    // ï¿½ï¿½ï¿½ï¿½Ç¸ï¿½ï¿½ï¿½
                     if (flag[i] > 0) {
                         if (j >= price[i] + price[flag[i]])
                             dp[i][j] = Math.max(dp[i - 1][j], dp[i - 1][j - price[i]] + price[i] * weight[i]);
                     }
                     else {
-                        //Èç¹ûÊÇÖ÷¼þ
+                        //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
                         if (j >= price[i]) {
                             dp[i][j] = Math.max(dp[i - 1][j], dp[i - 1][j - price[i]] + price[i] * weight[i]);
                         }
@@ -41,7 +40,7 @@ public class Problem016 {
 //            int[] dp = new int[maxPriceLimited + 1];
 //            for (int i = 1; i <= num; i++) {
 //                for (int j = maxPriceLimited; j >= price[i]; j--) {
-//                    // Èç¹ûÊÇ¸½¼þ
+//                    // ï¿½ï¿½ï¿½ï¿½Ç¸ï¿½ï¿½ï¿½
 //                     if (flag[i] > 0) {
 //                         if (j >= price[i] + price[flag[i]])
 //                             dp[j] = Math.max(dp[j], dp[j - price[i]] + price[i] * weight[i]);

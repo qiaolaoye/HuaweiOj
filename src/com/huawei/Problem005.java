@@ -5,7 +5,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-/* ½øÖÆ×ª»»*/
 public class Problem005 {
     private static Map<Character, Integer> map = new HashMap<>();
 

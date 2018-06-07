@@ -1,7 +1,6 @@
 package com.huawei;
 import java.util.Scanner;
 
-/*  字符串最后一个单词的长度*/
 public class Problem001 {
     public static int countLastLength(String str) {
         String[] result = str.split(" ");

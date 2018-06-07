@@ -3,7 +3,6 @@ package com.huawei;
 
 import java.util.Scanner;
 
-/* ×ø±êÒÆ¶¯*/
 public class Problem017 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -33,7 +32,7 @@ public class Problem017 {
         }
     }
 
-    // Ð£ÑéÒ»¸ö×Ö·û´®ÊÇ·ñÍêÈ«ÓÉÊý×Ö¹¹³É
+    // Ð£ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½È«ï¿½ï¿½ï¿½ï¿½ï¿½Ö¹ï¿½ï¿½ï¿½
     private static boolean checkNumber(String str) {
         if (str.length() == 0) return false;
         for (int i = 0; i < str.length(); i++) {
