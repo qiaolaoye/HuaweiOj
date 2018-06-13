@@ -32,7 +32,7 @@ public class Problem017 {
         }
     }
 
-    // У��һ���ַ����Ƿ���ȫ�����ֹ���
+
     private static boolean checkNumber(String str) {
         if (str.length() == 0) return false;
         for (int i = 0; i < str.length(); i++) {
