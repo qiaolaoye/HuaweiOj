@@ -1,6 +1,7 @@
 # HuaweiOj
 
-###牛客网华为机试
+### 牛客网华为机试
+
 * [字符串最后一个单词的长度](https://github.com/qiaolaoye/HuaweiOj/blob/master/src/com/huawei/Problem001.java)
 * [计算字符个数](https://github.com/qiaolaoye/HuaweiOj/blob/master/src/com/huawei/Problem002.java)
 * [明明的随机数](https://github.com/qiaolaoye/HuaweiOj/blob/master/src/com/huawei/Problem003.java)
